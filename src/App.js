@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
+import "./App.css";
 import AddContactModal from "./components/AddContactModal";
 import useFetchContacts from "./hooks/useFetchContacts";
 import useDeleteContact from "./hooks/useDeleteContact";
 import BasicTable from "./components/table";
 import Header from "./components/Header";
 import AccountCircleOutlinedIcon from "@mui/icons-material/AccountCircleOutlined";
-import "./App.css";
 
 function App() {
   const [contacts, setContacts] = useState([]);

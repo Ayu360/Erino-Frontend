@@ -5,7 +5,7 @@ import Toolbar from "@mui/material/Toolbar";
 
 export default function MenuAppBar() {
   return (
-    <Box sx={{ padding: 5 }}>
+    <Box sx={{ padding: 8 }}>
       <AppBar
         sx={{
           backgroundColor: "#89CFF0",
