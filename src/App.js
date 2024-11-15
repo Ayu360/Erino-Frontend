@@ -69,7 +69,7 @@ function App() {
             </div>
             <button onClick={() => setShowModal(true)}>Add Contact</button>
           </header>
-          {(!loading || !deletedLoading) &
+          {(!loading || !deletedLoading) &&
             (error === null || deletedError !== null) && (
             <BasicTable
               contacts={contacts}
@@ -80,7 +80,7 @@ function App() {
           {(loading || deletedLoading) && <div>Loading...</div>}
           {(!loading || !deletedLoading) &&
             (error !== null || deletedError !== null) && (
-              <div>Error occured</div>
+              <div>Something went wrong, please try again later... </div>
             )}
         </div>
         {showModal && (
