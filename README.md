@@ -16,7 +16,7 @@ This is a Contact Management System that allows CRUD operations over your contac
 - Install dependencies: ```npm i```
 
 - React application: ```npm start```
-- Port: `3001`
+- Port: `3000`
 
 ## 🌟 Features:
 - Sorting in Table (by click on field)
